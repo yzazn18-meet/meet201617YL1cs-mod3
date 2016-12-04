@@ -4,7 +4,10 @@ class UserAccount :
     """
 
     def __init__(self, username, password, secret):
+<<<<<<< HEAD
         
+=======
+>>>>>>> 91000664e2a45b4e98aaef28fa6e4853fc47fb5b
         """
         Initialize the UserAccount object:
         :param username: user name (string)
@@ -15,7 +18,10 @@ class UserAccount :
         #Complete the __init__ method
 
     def print_secret(self,password_attempt):
+<<<<<<< HEAD
         
+=======
+>>>>>>> 91000664e2a45b4e98aaef28fa6e4853fc47fb5b
         """
         Checks user input, password_attempt - if this matches the user's
         password, then the user's secret is printed to the screen.
