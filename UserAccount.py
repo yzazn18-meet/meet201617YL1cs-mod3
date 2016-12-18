@@ -3,25 +3,23 @@ class UserAccount :
     A class that models a user account for mega-social-media website, GuessMySecret
     """
 
-    def __init__(self, username, password, secret):
-<<<<<<< HEAD
-        
-=======
->>>>>>> 91000664e2a45b4e98aaef28fa6e4853fc47fb5b
+    def __init__(self, username_input, password_input, secret_input):
         """
         Initialize the UserAccount object:
         :param username: user name (string)
         :param password: password to gain access to account (string)
         :param secret: user's secret, accessible only with password (string)
         """
-        self.username=username
+  #      print(secret_input)
+        self.username = username_input
         #Complete the __init__ method
-
-    def print_secret(self,password_attempt):
-<<<<<<< HEAD
+        self.password = password_input
         
-=======
->>>>>>> 91000664e2a45b4e98aaef28fa6e4853fc47fb5b
+        self.secret = secret_input
+  #      print(self.password)
+        print(self.secret_input)
+        
+    def print_secret(self,password_attempt):
         """
         Checks user input, password_attempt - if this matches the user's
         password, then the user's secret is printed to the screen.
@@ -31,3 +29,8 @@ class UserAccount :
         #Complete this method - check the input variable, password_attempt,
         #against the password for this user (the value of the instance variable, password).
         #If, and only if, there's a match, then print the user's secret to the screen.
+        print('hi!!!')
+##        username=('yazan the cool')
+##        password=('somoneyazan15@1')
+        
+first_user_account = UserAccount('Yazan', 'great', 'im cool')
